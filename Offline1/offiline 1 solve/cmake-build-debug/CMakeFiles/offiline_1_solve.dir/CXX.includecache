@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/masfiq/Dropbox/L3T1/All courses/CSE 310 Compiler sessional/Offline 1/offiline 1 solve/1505111/150511_SymbolTable.cpp
+iostream
+-
+bits/stdc++.h
+-
+
+/home/masfiq/Dropbox/L3T1/All courses/CSE 310 Compiler sessional/Offline 1/offiline 1 solve/150511_SymbolTable.cpp
+iostream
+-
+bits/stdc++.h
+-
+

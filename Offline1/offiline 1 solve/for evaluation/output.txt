@@ -1,0 +1,99 @@
+I foo FUNCTION
+
+ Inserted in ScopeTable# 1 at position 6, 0
+
+I i VAR
+
+ Inserted in ScopeTable# 1 at position 2, 0
+
+L foo
+
+ found in ScopeTable# 1 at position 6, 0
+
+L j
+
+ Not Found
+
+I 5 NUMBER
+
+ Inserted in ScopeTable# 1 at position 6, 1
+
+P A
+
+ScopeTable # 1
+2 -->  < i : VAR > 
+6 -->  < foo : FUNCTION > < 5 : NUMBER > 
+
+
+D j
+
+ Not Found
+
+D i
+
+ found in ScopeTable# 1 at position 2, 0
+
+ Deleted entry at 2, 0 from current ScopeTable
+
+P A
+
+ScopeTable # 1
+6 -->  < foo : FUNCTION > < 5 : NUMBER > 
+
+
+S I <= RELOP
+
+ Inserted in ScopeTable# 2 at position 6, 0
+
+I == RELOP
+
+ Inserted in ScopeTable# 2 at position 5, 0
+
+P A
+
+ScopeTable # 2
+5 -->  < == : RELOP > 
+6 -->  < <= : RELOP > 
+
+ScopeTable # 1
+6 -->  < foo : FUNCTION > < 5 : NUMBER > 
+
+
+I <= RELOP
+name alreadfy exists
+
+I foo FUNCTION
+
+ Inserted in ScopeTable# 2 at position 6, 1
+
+D ==
+
+ found in ScopeTable# 2 at position 5, 0
+
+ Deleted entry at 5, 0 from current ScopeTable
+
+P A
+
+ScopeTable # 2
+6 -->  < <= : RELOP > < foo : FUNCTION > 
+
+ScopeTable # 1
+6 -->  < foo : FUNCTION > < 5 : NUMBER > 
+
+
+E I t t
+
+ Inserted in ScopeTable# 1 at position 6, 2
+
+I k k
+
+ Inserted in ScopeTable# 1 at position 4, 0
+
+P A
+
+ScopeTable # 1
+4 -->  < k : k > 
+6 -->  < foo : FUNCTION > < 5 : NUMBER > < t : t > 
+
+
+A 

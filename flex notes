@@ -1,0 +1,7 @@
+1) \x   => x,if x is a lex operator. we use \ when we have to a lex operator in our expression. 
+example: 
+\" => recognize "
+\\ => recognize /
+\? => recognize ?
+
+2) iN REGULAR EXPRESSION DO NOT USE UNNECESSARY GAPS

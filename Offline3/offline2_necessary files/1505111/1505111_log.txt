@@ -1,0 +1,2391 @@
+Line no 1: TOKEN <INT>  Lexeme int found
+
+Line no 1: TOKEN <ID> Lexeme x found
+
+ScopeTable # 1
+14 -->  < x : ID > 
+
+
+Line no 1: TOKEN <COMMA> Lexeme , found
+
+ScopeTable # 1
+14 -->  < x : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 1: TOKEN <ID> Lexeme y found
+
+ScopeTable # 1
+14 -->  < x : ID > 
+15 -->  < y : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 1: TOKEN <COMMA> Lexeme , found
+
+name alreadfy exists
+
+ScopeTable # 1
+14 -->  < x : ID > 
+15 -->  < y : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 1: TOKEN <ID> Lexeme z found
+
+ScopeTable # 1
+14 -->  < x : ID > 
+15 -->  < y : ID > 
+16 -->  < z : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 1: TOKEN <SEMICOLON> Lexeme ; found
+
+ScopeTable # 1
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > 
+15 -->  < y : ID > 
+16 -->  < z : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 1: TOKEN <FLOAT>  Lexeme float found
+
+Line no 1: TOKEN <ID> Lexeme a found
+
+ScopeTable # 1
+11 -->  < a : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > 
+15 -->  < y : ID > 
+16 -->  < z : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 1: TOKEN <SEMICOLON> Lexeme ; found
+
+name alreadfy exists
+
+ScopeTable # 1
+11 -->  < a : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > 
+15 -->  < y : ID > 
+16 -->  < z : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 3: TOKEN <VOID>  Lexeme void found
+
+Line no 3: TOKEN <ID> Lexeme foo found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+11 -->  < a : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > 
+15 -->  < y : ID > 
+16 -->  < z : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 3: TOKEN <LPAREN> Lexeme ( found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+11 -->  < a : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > 
+16 -->  < z : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 3: TOKEN <RPAREN> Lexeme ) found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+11 -->  < a : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 3: TOKEN <SEMICOLON> Lexeme ; found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+11 -->  < a : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 5: TOKEN <INT>  Lexeme int found
+
+Line no 5: TOKEN <ID> Lexeme var found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 5: TOKEN <LPAREN> Lexeme ( found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 5: TOKEN <INT>  Lexeme int found
+
+Line no 5: TOKEN <ID> Lexeme a found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 5: TOKEN <COMMA> Lexeme , found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 5: TOKEN <INT>  Lexeme int found
+
+Line no 5: TOKEN <ID> Lexeme b found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 5: TOKEN <RPAREN> Lexeme ) found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+18 -->  < , : COMMA > 
+
+
+Line no 5: TOKEN <LCURL> Lexeme { found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > 
+18 -->  < , : COMMA > 
+
+
+Line no 6: TOKEN <RETURN>  Lexeme return found
+
+Line no 6: TOKEN <ID> Lexeme a found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > 
+18 -->  < , : COMMA > 
+
+
+Line no 6: TOKEN <ADDOP>  Lexeme + found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+
+
+Line no 6: TOKEN <ID> Lexeme b found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+
+
+Line no 6: TOKEN <SEMICOLON> Lexeme ; found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+
+
+Line no 7: TOKEN <RCURL> Lexeme } found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > 
+
+
+Line no 9: TOKEN <VOID>  Lexeme void found
+
+Line no 9: TOKEN <ID> Lexeme foo found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > 
+
+
+Line no 9: TOKEN <LPAREN> Lexeme ( found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > 
+
+
+Line no 9: TOKEN <RPAREN> Lexeme ) found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > 
+
+
+Line no 9: TOKEN <LCURL> Lexeme { found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > 
+
+
+Line no 10: TOKEN <ID> Lexeme x found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > 
+
+
+Line no 10: TOKEN <ASSIGNOP> Lexeme = found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > 
+
+
+Line no 10: TOKEN <CONST_INT>  Lexeme 2 found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > 
+
+
+Line no 10: TOKEN <SEMICOLON> Lexeme ; found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > 
+
+
+Line no 11: TOKEN <ID> Lexeme y found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > 
+
+
+Line no 11: TOKEN <ASSIGNOP> Lexeme = found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > 
+
+
+Line no 11: TOKEN <ID> Lexeme x found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > 
+
+
+Line no 11: TOKEN <ADDOP>  Lexeme - found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > 
+
+
+Line no 11: TOKEN <CONST_INT>  Lexeme 5 found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > 
+7 -->  < 5 : CONST_INT > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > 
+
+
+Line no 11: TOKEN <SEMICOLON> Lexeme ; found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > 
+7 -->  < 5 : CONST_INT > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > 
+
+
+Line no 12: TOKEN <RCURL> Lexeme } found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > 
+7 -->  < 5 : CONST_INT > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > 
+
+
+Line no 14: TOKEN <INT>  Lexeme int found
+
+Line no 14: TOKEN <ID> Lexeme main found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+7 -->  < 5 : CONST_INT > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > 
+
+
+Line no 14: TOKEN <LPAREN> Lexeme ( found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+7 -->  < 5 : CONST_INT > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > 
+
+
+Line no 14: TOKEN <RPAREN> Lexeme ) found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+7 -->  < 5 : CONST_INT > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > 
+
+
+Line no 14: TOKEN <LCURL> Lexeme { found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+7 -->  < 5 : CONST_INT > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > 
+
+
+Line no 15: TOKEN <INT>  Lexeme int found
+
+Line no 15: TOKEN <ID> Lexeme a found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+7 -->  < 5 : CONST_INT > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > 
+
+
+Line no 15: TOKEN <LTHIRD> Lexeme [ found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > 
+
+
+Line no 15: TOKEN <CONST_INT>  Lexeme 2 found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > 
+
+
+Line no 15: TOKEN <RTHIRD> Lexeme ] found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > 
+
+
+Line no 15: TOKEN <COMMA> Lexeme , found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > 
+
+
+Line no 15: TOKEN <ID> Lexeme c found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > 
+
+
+Line no 15: TOKEN <COMMA> Lexeme , found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > 
+
+
+Line no 15: TOKEN <ID> Lexeme i found
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 15: TOKEN <COMMA> Lexeme , found
+
+name alreadfy exists
+
+ScopeTable # 1
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 15: TOKEN <ID> Lexeme j found
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 15: TOKEN <SEMICOLON> Lexeme ; found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 15: TOKEN <FLOAT>  Lexeme float found
+
+Line no 15: TOKEN <ID> Lexeme d found
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 15: TOKEN <SEMICOLON> Lexeme ; found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 16: TOKEN <ID> Lexeme a found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 16: TOKEN <LTHIRD> Lexeme [ found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 16: TOKEN <CONST_INT>  Lexeme 0 found
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 16: TOKEN <RTHIRD> Lexeme ] found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 16: TOKEN <ASSIGNOP> Lexeme = found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 16: TOKEN <CONST_INT>  Lexeme 1 found
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 16: TOKEN <SEMICOLON> Lexeme ; found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 17: TOKEN <ID> Lexeme a found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 17: TOKEN <LTHIRD> Lexeme [ found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 17: TOKEN <CONST_INT>  Lexeme 1 found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 17: TOKEN <RTHIRD> Lexeme ] found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 17: TOKEN <ASSIGNOP> Lexeme = found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 17: TOKEN <CONST_INT>  Lexeme 5 found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 17: TOKEN <SEMICOLON> Lexeme ; found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 18: TOKEN <ID> Lexeme i found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 18: TOKEN <ASSIGNOP> Lexeme = found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 18: TOKEN <ID> Lexeme a found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 18: TOKEN <LTHIRD> Lexeme [ found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 18: TOKEN <CONST_INT>  Lexeme 0 found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 18: TOKEN <RTHIRD> Lexeme ] found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 18: TOKEN <ADDOP>  Lexeme + found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 18: TOKEN <ID> Lexeme a found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 18: TOKEN <LTHIRD> Lexeme [ found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 18: TOKEN <CONST_INT>  Lexeme 1 found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 18: TOKEN <RTHIRD> Lexeme ] found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 18: TOKEN <SEMICOLON> Lexeme ; found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <ID> Lexeme j found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <ASSIGNOP> Lexeme = found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <CONST_INT>  Lexeme 2 found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <MULOP>  Lexeme * found
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <CONST_INT>  Lexeme 3 found
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <ADDOP>  Lexeme + found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <LPAREN> Lexeme ( found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <CONST_INT>  Lexeme 5 found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <MULOP>  Lexeme % found
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <CONST_INT>  Lexeme 3 found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <RELOP> Lexeme < found
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <CONST_INT>  Lexeme 4 found
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <LOGICOP> Lexeme && found
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <CONST_INT>  Lexeme 8 found
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <RPAREN> Lexeme ) found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <LOGICOP> Lexeme || found
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <CONST_INT>  Lexeme 2 found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 19: TOKEN <SEMICOLON> Lexeme ; found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 20: TOKEN <ID> Lexeme d found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 20: TOKEN <ASSIGNOP> Lexeme = found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 20: TOKEN <ID> Lexeme var found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 20: TOKEN <LPAREN> Lexeme ( found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 20: TOKEN <CONST_INT>  Lexeme 1 found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 20: TOKEN <COMMA> Lexeme , found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 20: TOKEN <CONST_INT>  Lexeme 2 found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 20: TOKEN <MULOP>  Lexeme * found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 20: TOKEN <CONST_INT>  Lexeme 3 found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 20: TOKEN <RPAREN> Lexeme ) found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 20: TOKEN <ADDOP>  Lexeme + found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 20: TOKEN <CONST_FLOAT>  Lexeme 3.5 found
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > < 3.5 : CONST_FLOAT > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 20: TOKEN <MULOP>  Lexeme * found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > < 3.5 : CONST_FLOAT > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 20: TOKEN <CONST_INT>  Lexeme 2 found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > < 3.5 : CONST_FLOAT > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 20: TOKEN <SEMICOLON> Lexeme ; found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > < 3.5 : CONST_FLOAT > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 21: TOKEN <RETURN>  Lexeme return found
+
+Line no 21: TOKEN <CONST_INT>  Lexeme 0 found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > < 3.5 : CONST_FLOAT > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 21: TOKEN <SEMICOLON> Lexeme ; found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > < 3.5 : CONST_FLOAT > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+Line no 22: TOKEN <RCURL> Lexeme } found
+
+name alreadfy exists
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > < 3.5 : CONST_FLOAT > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+ScopeTable # 1
+0 -->  < j : ID > 
+1 -->  < foo : ID > 
+2 -->  < 0 : CONST_INT > 
+3 -->  < 1 : CONST_INT > 
+4 -->  < var : ID > < 2 : CONST_INT > < main : ID > 
+5 -->  < [ : LTHIRD > < 3 : CONST_INT > 
+6 -->  < 4 : CONST_INT > < && : LOGICOP > 
+7 -->  < 5 : CONST_INT > < ] : RTHIRD > 
+10 -->  < 8 : CONST_INT > 
+11 -->  < a : ID > < % : MULOP > 
+12 -->  < b : ID > 
+13 -->  < ; : SEMICOLON > < c : ID > 
+14 -->  < x : ID > < ( : LPAREN > < d : ID > < < : RELOP > 
+15 -->  < y : ID > < ) : RPAREN > < = : ASSIGNOP > 
+16 -->  < z : ID > < * : MULOP > < || : LOGICOP > 
+17 -->  < { : LCURL > < + : ADDOP > < 3.5 : CONST_FLOAT > 
+18 -->  < , : COMMA > 
+19 -->  < } : RCURL > < - : ADDOP > < i : ID > 
+
+
+num of errors: 0
+num of lines in input file: 23

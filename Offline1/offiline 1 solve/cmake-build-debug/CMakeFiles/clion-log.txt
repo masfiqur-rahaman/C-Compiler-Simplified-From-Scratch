@@ -1,0 +1,4 @@
+/opt/clion-2018.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/masfiq/Dropbox/L3T1/All courses/CSE 310 Compiler sessional/Offline 1/offiline 1 solve"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/masfiq/Dropbox/L3T1/All courses/CSE 310 Compiler sessional/Offline 1/offiline 1 solve/cmake-build-debug
